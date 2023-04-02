@@ -1,0 +1,40 @@
+.form{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+    }
+    body{
+        background-color: rgb(41, 151, 115);
+    }
+    .form{
+        position: relative;
+    }
+    .f-flex::before{
+        content:'';
+        position: absolute;
+        height: 100px;
+        width: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        top: 380px;
+        left: 567px;
+        border-radius: 5px;
+        
+    }
+    .f-flex::after{
+        content:'';
+        position: absolute;
+        height: 100px;
+        width: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        top: 380px;
+        right: 567px;
+        border-radius: 5px;
+    }
+    .las.p{
+        font-size: 25px;
+    }
